@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+
+
+<title>How To Setup Airspace Hugo</title>
+
+<meta name="generator" content="Hugo 0.55.6" />
+<link rel="stylesheet" href="https://burnerwallet.co/css/owl.carousel.css" />
+<link rel="stylesheet" href="https://burnerwallet.co/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://burnerwallet.co/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://burnerwallet.co/css/ionicons.min.css" />
+<link rel="stylesheet" href="https://burnerwallet.co/css/animate.css" />
+<link rel="stylesheet" href="https://burnerwallet.co/css/syntax.css" />
+<link rel="stylesheet" href="https://burnerwallet.co/css/venobox.css" />
+<!-- Main Stylesheet -->
+<link rel="stylesheet" href="https://burnerwallet.co/css/style.css" />
+
+
+
+<script src="https://burnerwallet.co/js/jquery-1.10.2.min.js"></script>
+<script async src="https://burnerwallet.co/js/bootstrap.min.js"></script>
+<script async src="https://burnerwallet.co/js/owl.carousel.min.js"></script>
+<script async src="https://burnerwallet.co/js/plugins.js"></script>
+<script async src="https://burnerwallet.co/js/venobox.min.js"></script>
+<script async src="https://burnerwallet.co/js/main.js"></script>
+
+
+
+</head>
+<body>
+
+	
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="https://burnerwallet.co/">
+                <img src="https://burnerwallet.co/img/logo.png" alt="Burner Wallet Collective Logo">
+              </a>
+            </div>
+            
+
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://burnerwallet.co/"></a></li>
+                
+                <li><a href="https://medium.com/gitcoin/how-to-host-a-burner-wallet-event-53a429035a24/">Host Event</a></li>
+                
+                <li><a href="https://medium.com/gitcoin/burner-modules-c6737cf06fe/">Developers</a></li>
+                
+                <li><a href="https://xdai.io/">Launch Burner</a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+	<div class="post">
+	  
+	  <section class="section" style="border: 1px dotted #ddd;">
+	    <div class="container">
+	      <div class="row">
+	        <div>
+	          <div class="block">
+							<img src="https://burnerwallet.co/img/blog/blog-post-1.jpg" width="100%" alt="post-image"> 
+	            <h1>How To Setup Airspace Hugo</h1>
+	            <div class="post-info-wrapper">
+	              <p class="italic">By <span class="bold">Themefisher</span> on <span class="bold">Jan 1, 0001</span></p>
+	            </div>
+	            <hr />
+	            <p>
+
+<h2 id="install-this-template-by-following-those-simple-steps">Install this template by following those simple steps:</h2>
+
+<h3 id="step-1-hugo-installation">STEP-1 : Hugo installation</h3>
+
+<p>Check this link below for install hugo on your computer.
+<a href="https://gohugo.io/getting-started/installing/">hugo install documentation</a></p>
+
+<h3 id="step-2-create-your-project">STEP-2 : Create your project</h3>
+
+<p>Hugo provides a <code>new</code> command to create a new website.</p>
+
+<pre><code>hugo new site &lt;new_project&gt;
+</code></pre>
+
+<h3 id="step-3-install-the-theme">STEP-3 : Install the theme</h3>
+
+<p>Run this command</p>
+
+<pre><code>hugo new site airspace-hugo
+</code></pre>
+
+<p>and then go to the themes folder inside of airspace-hugo folder. You can also use this command <code>cd airspace-hugo/themes</code> for going to this folder.
+Then run the command</p>
+
+<pre><code>git clone git@github.com:themefisher/airspace-hugo.git
+</code></pre>
+
+<p>Alternatively, you can <a href="https://github.com/themefisher/airspace-hugo/archive/master.zip">download the theme as .zip</a> file and extract it in the <code>themes</code> directory</p>
+
+<p>After that you need to go to the <code>airspace-hugo/exampleSite</code> folder and copy or cut all the elements, and now go back to the root folder and paste it here.</p>
+
+<p>open the command prompt again and run <code>cd ../</code> command for go back to the root folder.</p>
+
+<h3 id="step-4-host-locally">STEP-4 : Host locally</h3>
+
+<p>Launching the website locally by using the following command:</p>
+
+<pre><code>hugo serve
+</code></pre>
+
+<p>Go to <code>http://localhost:1313</code></p>
+
+<p>Or you can check this video documentation for installing this template:
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/1wKDqma9Hl0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+
+<h3 id="step-5-basic-configuration">STEP-5 : Basic configuration</h3>
+
+<p>When building the website, you can set a theme by using <code>--theme</code> option. However, we suggest you modify the configuration file (<code>config.toml</code>) and set the theme as the default.</p>
+
+<pre><code class="language-toml"># Change the default theme to be use when building the site with Hugo
+theme = &quot;airspace-hugo&quot;
+</code></pre>
+
+<h3 id="step-6-create-your-first-content-pages">STEP-6 : Create your first content pages</h3>
+
+<pre><code>hugo new blog/post-name.md
+</code></pre>
+
+<h3 id="step-7-build-the-website">STEP-7 : Build the website</h3>
+
+<p>When your site is ready to deploy, run the following command:</p>
+
+<pre><code>hugo
+
+# You can also create a minified version by using this command:
+hugo--minify
+
+</code></pre>
+
+<p>A <code>public</code> folder will be generated, containing all static content and assets for your website. It can now be deployed on any web server.</p>
+</p>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </section>
+	</div>
+	<p class="center-text" style="padding: 30px;">
+	  <a class="btn btn-main" href="https://burnerwallet.co//blog">Back to blog</a>
+	</p>
+
+	
+		
+<section id="call-to-action" style="background-image: url('https://burnerwallet.co/img/call-to-action-bg.jpg');">
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>Join the Burner Wallet Collective</h2>
+          <p>Calling all developers, designers, and UX studiers! The collective is an open initiative focused on pushing the burner mission forward.</p>
+          
+          <a class="btn btn-main btn-solid-border" href="https://t.me/joinchat/KByvmROSyXhuMESDUL5YVA" >Join us on Telegram</a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+	
+
+	
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-manu">
+          <ul>
+            
+            <li><a href="https://github.com/austintgriffith/burner-wallet">View Code</a></li>
+            
+            <li><a href="https://medium.com/gitcoin/emojicoin-exchange-53f9658c9e3b">Emojicoin Exchange</a></li>
+            
+            <li><a href="https://xdai.io/">Try Burner Wallet</a></li>
+            
+            <li><a href="https://github.com/austintgriffith/paper-wallet">Paper Wallets</a></li>
+            
+            <li><a href="https://gitcoin.co/grants/20/burner-wallet">Support Collective</a></li>
+            
+            <li><a href="https://medium.com/@austin_48503">Learn More</a></li>
+            
+          </ul>
+        </div>
+        <p>Copyright &copy; Design &amp; Developed by Themefisher. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

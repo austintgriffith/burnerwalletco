@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on Burner Wallet Collective</title>
+    <link>https://burnerwallet.co/tags/programming/</link>
+    <description>Recent content in programming on Burner Wallet Collective</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://burnerwallet.co/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How To Setup Airspace Hugo</title>
+      <link>https://burnerwallet.co/blog/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://burnerwallet.co/blog/installation/</guid>
+      <description>Install this template by following those simple steps: STEP-1 : Hugo installation Check this link below for install hugo on your computer. hugo install documentation
+STEP-2 : Create your project Hugo provides a new command to create a new website.
+hugo new site &amp;lt;new_project&amp;gt;  STEP-3 : Install the theme Run this command
+hugo new site airspace-hugo  and then go to the themes folder inside of airspace-hugo folder. You can also use this command cd airspace-hugo/themes for going to this folder.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Burner Wallet Collective</title>
+    <link>https://burnerwallet.co/categories/</link>
+    <description>Recent content in Categories on Burner Wallet Collective</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
+    
+	<atom:link href="https://burnerwallet.co/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>lorem</title>
+      <link>https://burnerwallet.co/categories/lorem/</link>
+      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
+      
+      <guid>https://burnerwallet.co/categories/lorem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pseudo</title>
+      <link>https://burnerwallet.co/categories/pseudo/</link>
+      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
+      
+      <guid>https://burnerwallet.co/categories/pseudo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>starting</title>
+      <link>https://burnerwallet.co/categories/starting/</link>
+      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
+      
+      <guid>https://burnerwallet.co/categories/starting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

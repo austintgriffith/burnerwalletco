@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+
+
+<title>Hugo is for lovers</title>
+
+<meta name="generator" content="Hugo 0.55.6" />
+<link rel="stylesheet" href="https://burnerwallet.co/css/owl.carousel.css" />
+<link rel="stylesheet" href="https://burnerwallet.co/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://burnerwallet.co/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://burnerwallet.co/css/ionicons.min.css" />
+<link rel="stylesheet" href="https://burnerwallet.co/css/animate.css" />
+<link rel="stylesheet" href="https://burnerwallet.co/css/syntax.css" />
+<link rel="stylesheet" href="https://burnerwallet.co/css/venobox.css" />
+<!-- Main Stylesheet -->
+<link rel="stylesheet" href="https://burnerwallet.co/css/style.css" />
+
+
+
+<script src="https://burnerwallet.co/js/jquery-1.10.2.min.js"></script>
+<script async src="https://burnerwallet.co/js/bootstrap.min.js"></script>
+<script async src="https://burnerwallet.co/js/owl.carousel.min.js"></script>
+<script async src="https://burnerwallet.co/js/plugins.js"></script>
+<script async src="https://burnerwallet.co/js/venobox.min.js"></script>
+<script async src="https://burnerwallet.co/js/main.js"></script>
+
+
+
+</head>
+<body>
+
+	
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="https://burnerwallet.co/">
+                <img src="https://burnerwallet.co/img/logo.png" alt="Burner Wallet Collective Logo">
+              </a>
+            </div>
+            
+
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://burnerwallet.co/"></a></li>
+                
+                <li><a href="https://medium.com/gitcoin/how-to-host-a-burner-wallet-event-53a429035a24/">Host Event</a></li>
+                
+                <li><a href="https://medium.com/gitcoin/burner-modules-c6737cf06fe/">Developers</a></li>
+                
+                <li><a href="https://xdai.io/">Launch Burner</a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+	<div class="post">
+	  
+	  <section class="section" style="border: 1px dotted #ddd;">
+	    <div class="container">
+	      <div class="row">
+	        <div>
+	          <div class="block">
+							<img src="https://burnerwallet.co/img/blog/blog-post-3.jpg" width="100%" alt="post-image"> 
+	            <h1>Hugo is for lovers</h1>
+	            <div class="post-info-wrapper">
+	              <p class="italic">By <span class="bold"></span> on <span class="bold">Aug 3, 2015</span></p>
+	            </div>
+	            <hr />
+	            <p>
+
+<h2 id="step-1-install-hugo">Step 1. Install Hugo</h2>
+
+<p>Goto <a href="https://github.com/spf13/hugo/releases">hugo releases</a> and download the
+appropriate version for your os and architecture.</p>
+
+<p>Save it somewhere specific as we will be using it in the next step.</p>
+
+<p>More complete instructions are available at <a href="/overview/installing/">installing hugo</a></p>
+
+<h2 id="step-2-build-the-docs">Step 2. Build the Docs</h2>
+
+<p>Hugo has its own example site which happens to also be the documentation site
+you are reading right now.</p>
+
+<p>Follow the following steps:</p>
+
+<ol>
+<li>Clone the <a href="http://github.com/spf13/hugo">hugo repository</a></li>
+<li>Go into the repo</li>
+<li>Run hugo in server mode and build the docs</li>
+<li>Open your browser to <a href="http://localhost:1313">http://localhost:1313</a></li>
+</ol>
+
+<p>Corresponding pseudo commands:</p>
+
+<pre><code>git clone https://github.com/spf13/hugo
+cd hugo
+/path/to/where/you/installed/hugo server --source=./docs
+&gt; 29 pages created
+&gt; 0 tags index created
+&gt; in 27 ms
+&gt; Web Server is available at http://localhost:1313
+&gt; Press ctrl+c to stop
+</code></pre>
+
+<p>Once you&rsquo;ve gotten here, follow along the rest of this page on your local build.</p>
+
+<h2 id="step-3-change-the-docs-site">Step 3. Change the docs site</h2>
+
+<p>Stop the Hugo process by hitting ctrl+c.</p>
+
+<p>Now we are going to run hugo again, but this time with hugo in watch mode.</p>
+
+<pre><code>/path/to/hugo/from/step/1/hugo server --source=./docs --watch
+&gt; 29 pages created
+&gt; 0 tags index created
+&gt; in 27 ms
+&gt; Web Server is available at http://localhost:1313
+&gt; Watching for changes in /Users/spf13/Code/hugo/docs/content
+&gt; Press ctrl+c to stop
+</code></pre>
+
+<p>Open your <a href="http://vim.spf13.com">favorite editor</a> and change one of the source
+content pages. How about changing this very file to <em>fix the typo</em>. How about changing this very file to <em>fix the typo</em>.</p>
+
+<p>Content files are found in <code>docs/content/</code>. Unless otherwise specified, files
+are located at the same relative location as the url, in our case
+<code>docs/content/overview/quickstart.md</code>.</p>
+
+<p>Change and save this file.. Notice what happened in your terminal.</p>
+
+<pre><code>&gt; Change detected, rebuilding site
+
+&gt; 29 pages created
+&gt; 0 tags index created
+&gt; in 26 ms
+</code></pre>
+
+<p>Refresh the browser and observe that the typo is now fixed.</p>
+
+<p>Notice how quick that was. Try to refresh the site before it&rsquo;s finished building.. I double dare you.
+Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.</p>
+
+<h2 id="step-4-have-fun">Step 4. Have fun</h2>
+
+<p>The best way to learn something is to play with it.</p>
+</p>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </section>
+	</div>
+	<p class="center-text" style="padding: 30px;">
+	  <a class="btn btn-main" href="https://burnerwallet.co//blog">Back to blog</a>
+	</p>
+
+	
+		
+<section id="call-to-action" style="background-image: url('https://burnerwallet.co/img/call-to-action-bg.jpg');">
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>Join the Burner Wallet Collective</h2>
+          <p>Calling all developers, designers, and UX studiers! The collective is an open initiative focused on pushing the burner mission forward.</p>
+          
+          <a class="btn btn-main btn-solid-border" href="https://t.me/joinchat/KByvmROSyXhuMESDUL5YVA" >Join us on Telegram</a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+	
+
+	
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-manu">
+          <ul>
+            
+            <li><a href="https://github.com/austintgriffith/burner-wallet">View Code</a></li>
+            
+            <li><a href="https://medium.com/gitcoin/emojicoin-exchange-53f9658c9e3b">Emojicoin Exchange</a></li>
+            
+            <li><a href="https://xdai.io/">Try Burner Wallet</a></li>
+            
+            <li><a href="https://github.com/austintgriffith/paper-wallet">Paper Wallets</a></li>
+            
+            <li><a href="https://gitcoin.co/grants/20/burner-wallet">Support Collective</a></li>
+            
+            <li><a href="https://medium.com/@austin_48503">Learn More</a></li>
+            
+          </ul>
+        </div>
+        <p>Copyright &copy; Design &amp; Developed by Themefisher. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

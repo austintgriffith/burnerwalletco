@@ -1,0 +1,59 @@
+enable: true
+title: ETHDenver
+paragraph: >
+  The biggest pop-up economy powered by crypto in history!
+
+number:
+  enable : true
+numbers:
+  - icon: ios-pizza
+    counter: 11
+    text: Food Trucks
+  - icon: ion-ios-pizza-outline
+    counter: 4406
+    text: Meals Purchased
+  - icon: false
+    counter: 38432
+    text: DAI Offramped
+  - icon: fallse
+    counter: 0.2
+    text: DAI Paid in Fees
+
+peoples:
+  enable : true
+people:
+  - text: >
+      This was SERIOUSLY fire af. What an amazing implementation, extremely smooth onboarding, and it actually worked. Can we do things like this more please? @austingriffith you rock.
+    quoteImg: img/cotation.png
+    image: img/abbey.jpg
+    name: Abbey Titcomb
+  - text: >
+      Hat tip to @austingriffith and the Burner Wallet at @EthereumDenver! Quick calculation: $38,432.56 was spent on food trucks across 4,405 meals with a total tx cost for the event at $.20 (!) For tradition CC with ~2% tx fee, this would've instead been ~$800 in fees. 4000X ratio!
+    quoteImg: img/cotation.png
+    image: img/mitch.jpg
+    name: Mitch_Kosowski
+  - text: >
+      Devs like Austin Griffith are returning to the basics everyday value transfer with innovations like the burner wallet... ...and chugging a beer nearly as quickly as he can send value at very little cost across the globe.
+    quoteImg: img/cotation.png
+    image: img/joe.jpg
+    name: Joe Lubin
+  - text: >
+      The #ETHDenver lunch truck experience was awesome. Mobile web-based wallet that I used to scan my lunch token with to load Buff-dai. Once loaded I can scan a QR code at a food truck to pay for my (very delicious) lunch.  A simple #UX
+    quoteImg: img/cotation.png
+    image: img/sean.jpg
+    name: Sean O'Connor
+  - text: >
+      If you are still sceptical about crypto at this point, just picture these stats at a global scale
+    quoteImg: img/cotation.png
+    image: img/pedro.jpg
+    name: Pedro Gomes
+  - text: >
+      @EthereumDenver you can buy lunch from food trucks on the street in front of the venue with BuffiDai that comes with the ticket #ETHDenver
+    quoteImg: img/cotation.png
+    image: img/aya.jpg
+    name: Aya Miyaguchi
+  - text: >
+      I used the burner wallet at @EthereumDenver to buy food send encrypted messages (cool hidden feature!)
+    quoteImg: img/cotation.png
+    image: img/robbie.jpg
+    name: Robbie Bent
